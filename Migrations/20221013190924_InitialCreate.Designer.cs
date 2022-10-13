@@ -8,7 +8,7 @@ using Web452Assignment1.Data;
 namespace Web452Assignment1.Migrations
 {
     [DbContext(typeof(Web452Assignment1Context))]
-    [Migration("20221013172801_InitialCreate")]
+    [Migration("20221013190924_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

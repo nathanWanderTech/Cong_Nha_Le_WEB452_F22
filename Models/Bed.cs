@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Web452Assignment1.Models
 {
@@ -13,7 +15,9 @@ namespace Web452Assignment1.Models
         public string Type { get; set; } = "Normal"; // default type. Other type: bunk bed, sofa bed
         public string Color { get; set; }
         public string Size { get; set; } // Queen, full, single
-        public string Designer { get; set; } 
+        public string Designer { get; set; }
+
+        [Range(0, 5)]
         public int CustomerReview { get; set; }
     }
 }
