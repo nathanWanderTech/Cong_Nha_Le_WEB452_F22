@@ -12,3 +12,6 @@
 
 - Added About Us Page. Thanks to free template https://bootstrapious.com/p/about-us-page
 
+- Added Product Catalogue page
+
+- Link company name to Product Catalogue page

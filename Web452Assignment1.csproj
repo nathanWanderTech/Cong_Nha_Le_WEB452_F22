@@ -6,6 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Views\ProductCatalogue\" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>
 
@@ -17,4 +20,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.29" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\ProductCatalogue\" />
+  </ItemGroup>
 </Project>
