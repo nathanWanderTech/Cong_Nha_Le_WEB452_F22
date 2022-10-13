@@ -15,3 +15,14 @@
 - Added Product Catalogue page
 
 - Link company name to Product Catalogue page
+
+- Installed nu packages
+
+- Scaffold command : dotnet aspnet-codegenerator controller -name Web452Assignment1Controller -m Bed -dc Web452Assignment1Context --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries -sqlite
+
+- Migrate command: dotnet ef migrations add InitialCreate --context Web452Assignment1Context
+
+- Update database command : dotnet ef database update --context  Web452Assignment1Context
+
+- Migration worked
+
