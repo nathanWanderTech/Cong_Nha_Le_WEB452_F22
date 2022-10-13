@@ -16,11 +16,11 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Name)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Image)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Image)
+        <dd class="col-sm-10">
+            <img src="@Html.DisplayFor(model => model.Image)" class="rounded card--medium" alt="@Html.DisplayFor(model => model.Name)">
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Price)
