@@ -26,3 +26,5 @@
 
 - Migration worked
 
+- Seed data worked
+
