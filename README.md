@@ -4,8 +4,12 @@
 
 # Date: 2022-10-13
 
+# Work flow:
+
 - Created Project on MAC
+
 - Selected options: authentication and https
+
 - Ran project with ```dotnet run``` => good
 
 - Changed to company name Nap in my beds
@@ -33,3 +37,5 @@
 - Changing product catalogue page style
 
 - Changed product catalogue page and home page
+
+- Changed routes Detail, Edit, Create 
