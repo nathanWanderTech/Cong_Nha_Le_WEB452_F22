@@ -4,7 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using Web452Assignment1.Data;
 using Web452Assignment1.Models;
 
 namespace Web452Assignment1.Controllers
@@ -13,14 +15,16 @@ namespace Web452Assignment1.Controllers
     {
         private readonly ILogger<ProductCatalogueController> _logger;
 
-        public ProductCatalogueController(ILogger<ProductCatalogueController> logger)
+        private readonly Web452Assignment1Context _context;
+
+        public ProductCatalogueController(Web452Assignment1Context context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return View(await _context.Bed.ToListAsync());
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

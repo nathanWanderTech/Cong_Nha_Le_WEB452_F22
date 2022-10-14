@@ -28,3 +28,6 @@
 
 - Seed data worked
 
+- Add range 0 - 5 for customer review
+
+- Changing product catelouge page style

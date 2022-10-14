@@ -1,8 +1,39 @@
-﻿@{
-    ViewData["Title"] = "Product Catalogue Page";
+﻿@model IEnumerable<Web452Assignment1.Models.Bed>
+
+@{
+    ViewData["Title"] = "Product category";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Product Catalogue Page</h1>
-    
+<h3 class="display-4">Product category</h3>
+<br/>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4" style="margin-bottom: 1rem;">
+            <div class="card">
+                <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.Image)" alt="Card image" style="height: 250px">
+                <div class="card-body">
+                    <h4 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h4>
+                    <p class="card-text"><span class="font-weight-bold">Price: </span>$@Html.DisplayFor(modelItem => item.Price)</p>
+                    <p class="card-text"><span class="font-weight-bold">Type: </span>@Html.DisplayFor(modelItem => item.Type)</p>
+                    <p class="card-text"><span class="font-weight-bold">Color: </span>@Html.DisplayFor(modelItem => item.Color)</p>
+                    <p class="card-text"><span class="font-weight-bold">Size: </span>@Html.DisplayFor(modelItem => item.Size)</p>
+                    <p class="card-text"><span class="font-weight-bold">Designer: </span>@Html.DisplayFor(modelItem => item.Designer)</p>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <div>
+                            @{
+                                string[] reviews = new string[item.CustomerReview];
+                                foreach (var star in reviews )
+                                {
+                                    <span><i class="fa fa-star" aria-hidden="true" style="color: #c1bf14"></i></span>
+                                }
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
 </div>
