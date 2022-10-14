@@ -40,4 +40,10 @@
 
 - Changed routes Detail, Edit, Create
 
-- Change style for detail page
+- Changed style for detail page
+
+- Added modal in detail page
+
+- Published
+
+- TODO: no product data on Azue
