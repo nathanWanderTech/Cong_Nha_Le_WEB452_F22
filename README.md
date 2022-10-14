@@ -30,4 +30,6 @@
 
 - Add range 0 - 5 for customer review
 
-- Changing product catelouge page style
+- Changing product catalogue page style
+
+- Changed product catalogue page and home page
