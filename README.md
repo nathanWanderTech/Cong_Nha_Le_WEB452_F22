@@ -38,4 +38,6 @@
 
 - Changed product catalogue page and home page
 
-- Changed routes Detail, Edit, Create 
+- Changed routes Detail, Edit, Create
+
+- Change style for detail page
