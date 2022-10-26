@@ -11,3 +11,5 @@
 - Changed Bootswatch theme
 
 - Added dropdown in nav bar
+
+- Add 3 project class CongNhaBooks.DataAccess, CongNhaBooks.Models, CongNhaBooks.Utility
