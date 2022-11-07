@@ -25,3 +25,5 @@
 - 2022-11-07 12:34: Add customers area
 
 - 2022-11-07 12:34: Move Home view to customers area
+
+- 2022-11-07 12:53: Edit layout path after moved _ViewStart into Area Customers Views
