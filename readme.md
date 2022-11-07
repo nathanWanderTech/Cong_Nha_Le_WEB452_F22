@@ -19,3 +19,5 @@
 - 2022-11-06 19:08: delete migration folder and move Data folder into DataAccess
 
 - 2022-11-06 19:40: Fix cannot find Error View Model
+
+- 2022-11-06 21:10: Fix reference issues

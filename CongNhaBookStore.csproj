@@ -27,15 +27,4 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.30" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\CongNhaBooks.DataAccess\CongNhaBooks.DataAccess.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
-    <ProjectReference Include="..\CongNhaBooks.Models\CongNhaBooks.Models.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
-    <ProjectReference Include="CongNhaBooks.DataAccess\CongNhaBooks.DataAccess.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
