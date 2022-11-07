@@ -9,6 +9,7 @@
   <ItemGroup>
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Relational" />
+    <None Remove="CongNhaBooks.DataAccess\Data\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
@@ -25,4 +26,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.30" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CongNhaBooks.DataAccess\Data\" />
+  </ItemGroup>
 </Project>
