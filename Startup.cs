@@ -65,8 +65,9 @@ namespace CongNhaBookStore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapRazorPages();
+                    // pattern: "{controller=Home}/{action=Index}/{id?}"); Original pattern
+                    pattern: "{area=Customers}/{controller=Home}/{action=Index}/{id?}");
+            endpoints.MapRazorPages();
             });
         }
     }
