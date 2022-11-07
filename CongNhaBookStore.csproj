@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Microsoft.EntityFrameworkCore.Relational" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>
 
@@ -17,6 +21,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.29" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.29" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.29" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.30" />
   </ItemGroup>
 
 </Project>
