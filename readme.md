@@ -21,3 +21,5 @@
 - 2022-11-06 19:40: Fix cannot find Error View Model
 
 - 2022-11-06 21:10: Fix reference issues
+
+- 2022-11-07 12:34: Add customers area
