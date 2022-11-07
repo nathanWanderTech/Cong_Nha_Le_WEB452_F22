@@ -8,8 +8,9 @@ using Microsoft.Extensions.Logging;
 //using CongNhaBookStore.Models;
 using CongNhaBookStore.Models.ViewModels;
 
-namespace CongNhaBookStore.Controllers
+namespace CongNhaBookStore.Area.Customers.Controllers
 {
+    [Area("Customers")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
