@@ -30,4 +30,4 @@
 
 - 2022-11-11 12:56: Changed area in Home nav link but not working ??
 
-- 2022-11-11 14:53: run add-migration AddDefaultIdentityMigration. Succeeded
+- 2022-11-11 14:53: run add-migration AddDefaultIdentityMigration. Succeeded. File name: 20221111194841_AddDefaultIdentityMigration.cs
