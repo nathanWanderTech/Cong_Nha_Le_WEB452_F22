@@ -11,11 +11,11 @@ using CongNhaBookStore.Models.ViewModels;
 namespace CongNhaBookStore.Area.Admin.Controllers
 {
     [Area("Admin")]
-    public class AdminController : Controller
+    public class HomeController : Controller
     {
-        private readonly ILogger<AdminController> _logger;
+        private readonly ILogger<HomeController> _logger;
 
-        public AdminController(ILogger<AdminController> logger)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
