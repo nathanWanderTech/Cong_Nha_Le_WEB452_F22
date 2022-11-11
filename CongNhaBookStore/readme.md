@@ -29,3 +29,5 @@
 - 2022-11-07 12:53: Edit layout path after moved _ViewStart into Area Customers Views
 
 - 2022-11-11 12:56: Changed area in Home nav link but not working ??
+
+- 2022-11-11 14:53: run add-migration AddDefaultIdentityMigration. Succeeded
