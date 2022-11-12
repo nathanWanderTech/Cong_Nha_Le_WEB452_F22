@@ -10,6 +10,7 @@
     <None Remove="Data\" />
     <None Remove="Microsoft.EntityFrameworkCore" />
     <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="Microsoft.NETCore.App" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
@@ -17,5 +18,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.30" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.30" />
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CongNhaBooks.Models\CongNhaBooks.Models.csproj" />
   </ItemGroup>
 </Project>

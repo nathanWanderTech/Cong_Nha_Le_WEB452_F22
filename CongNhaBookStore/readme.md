@@ -31,3 +31,7 @@
 - 2022-11-11 12:56: Changed area in Home nav link but not working ??
 
 - 2022-11-11 14:53: run add-migration AddDefaultIdentityMigration. Succeeded. File name: 20221111194841_AddDefaultIdentityMigration.cs
+
+- 2022-11-12 09:21: create file Category.cs in Model. 
+
+- 2022-11-12 09:34: Add Category into DBContext file. TODO: run command add-migration AddCategoryToDb 

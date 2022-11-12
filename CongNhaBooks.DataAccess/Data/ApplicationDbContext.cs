@@ -1,8 +1,10 @@
-﻿using System;
+﻿using CongNhaBooks.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace CongNhaBookStore.DataAccess.Data
 {
@@ -12,6 +14,8 @@ namespace CongNhaBookStore.DataAccess.Data
             : base(options)
         {
         }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }
 

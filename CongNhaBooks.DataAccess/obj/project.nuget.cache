@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2nfbAxgcZT31CzHbi/bnVVoVDVZ5JDUAb4v8kIfWM7a1UL67d977SyZXaSEyc2fNkak4N5sW5ozK+6YOvMipyQ==",
+  "dgSpecHash": "Qd/y+x3GcF6E07sWVt4g8iVPCM11QtFoKpr1NIcczRnTLiY9dhwMsvjhRaANsHLGF9xvzmhukekULl4+H9Iyrw==",
   "success": true,
   "projectFilePath": "/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/CongNhaBooks.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,12 @@
     "/Users/nathanle/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.30/microsoft.extensions.logging.abstractions.3.1.30.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/microsoft.extensions.options/3.1.30/microsoft.extensions.options.3.1.30.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/microsoft.extensions.primitives/3.1.30/microsoft.extensions.primitives.3.1.30.nupkg.sha512",
+    "/Users/nathanle/.nuget/packages/microsoft.netcore.app/2.0.0/microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "/Users/nathanle/.nuget/packages/microsoft.netcore.dotnetapphost/2.0.0/microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "/Users/nathanle/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.0.0/microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "/Users/nathanle/.nuget/packages/microsoft.netcore.dotnethostresolver/2.0.0/microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "/Users/nathanle/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "/Users/nathanle/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/system.collections.immutable/1.7.1/system.collections.immutable.1.7.1.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
