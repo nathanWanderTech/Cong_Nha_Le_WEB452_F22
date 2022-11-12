@@ -34,7 +34,7 @@
 
 - 2022-11-12 09:21: create file Category.cs in Model. 
 
-- 2022-11-12 09:34: Add Category into DBContext file. TODO: run command add-migration AddCategoryToDb 
+- 2022-11-12 09:34: Add Category into DBContext file. TODO: run command add-migration AddCategoryToDb and update-database
 
 -2022-11-12 09:52: Add IRepository file
 
@@ -51,3 +51,5 @@
 -2022-11-12 12:27: Modified SP_Call.cs, create IUnitOfWork and UnitOfWork
 
 -2022-11-12 12:33: Add UnitOfWork in startup.cs config
+
+-2022-11-12 12:52: Add Category Controller and Index view for Category

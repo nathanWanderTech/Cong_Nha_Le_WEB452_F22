@@ -11,6 +11,7 @@
   <ItemGroup>
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Relational" />
+    <None Remove="Areas\Admin\Views\Category\" />
   </ItemGroup>
   
   <ItemGroup>
@@ -41,6 +42,7 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Areas\Admin\Views\Category\" />
   </ItemGroup>
 
 </Project>
