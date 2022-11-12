@@ -6,11 +6,3 @@ C:/Users/W0761950/source/repos/Cong_Nha_Le_WEB452_F22/CongNhaBooks.DataAccess/ob
 C:/Users/W0761950/source/repos/Cong_Nha_Le_WEB452_F22/CongNhaBooks.DataAccess/obj/Debug/netcoreapp3.1/CongNhaBooks.DataAccess.csproj.CoreCompileInputs.cache
 C:/Users/W0761950/source/repos/Cong_Nha_Le_WEB452_F22/CongNhaBooks.DataAccess/obj/Debug/netcoreapp3.1/CongNhaBooks.DataAccess.dll
 C:/Users/W0761950/source/repos/Cong_Nha_Le_WEB452_F22/CongNhaBooks.DataAccess/obj/Debug/netcoreapp3.1/CongNhaBooks.DataAccess.pdb
-/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/bin/Debug/netcoreapp3.1/CongNhaBooks.DataAccess.deps.json
-/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/bin/Debug/netcoreapp3.1/CongNhaBooks.DataAccess.dll
-/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/bin/Debug/netcoreapp3.1/CongNhaBooks.DataAccess.pdb
-/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/obj/Debug/netcoreapp3.1/CongNhaBooks.DataAccess.csproj.AssemblyReference.cache
-/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/obj/Debug/netcoreapp3.1/CongNhaBooks.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/obj/Debug/netcoreapp3.1/CongNhaBooks.DataAccess.csproj.CoreCompileInputs.cache
-/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/obj/Debug/netcoreapp3.1/CongNhaBooks.DataAccess.dll
-/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/obj/Debug/netcoreapp3.1/CongNhaBooks.DataAccess.pdb

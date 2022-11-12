@@ -13,7 +13,7 @@ namespace CongNhaBooks.DataAccess.Repository.IRepository
         // List of Categories based on requirements
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>> filter = null,
-            Func<IQueryable<T>, IOrderedEnumerable<T>> orderBy = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
             string includeProperties = null // useful for foreign key references
             );
 

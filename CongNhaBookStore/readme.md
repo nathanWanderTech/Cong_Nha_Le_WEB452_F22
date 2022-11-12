@@ -35,3 +35,11 @@
 - 2022-11-12 09:21: create file Category.cs in Model. 
 
 - 2022-11-12 09:34: Add Category into DBContext file. TODO: run command add-migration AddCategoryToDb 
+
+-2022-11-12 09:52: Add IRepository file
+
+-2022-11-12 10:20: Add and modify CategoryRepository.cs
+
+-2022-11-12 10:22: add update method in ICategoryRepository.cs
+
+-2022-11-12 10:22: Add update method in CategoryRepository.cs
