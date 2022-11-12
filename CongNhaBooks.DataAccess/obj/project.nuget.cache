@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+kSR8IArziAHFT/XF7671QY8fFJ0pU64lOeoe5oSVwqkj3z5vQ0NvyxScqd5UWWIOdzSH8RYnTSavMBWhmbzRw==",
+  "dgSpecHash": "op9z1tHiUB1ZOu56r6jJ2uKQ8bOM5Bf75Ibo3LIXgZ2FIMZGb/s6pNn0JFcaocWBF6ak8ijecbUTZdnquZeMNw==",
   "success": true,
   "projectFilePath": "/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/CongNhaBooks.DataAccess.csproj",
   "expectedPackageFiles": [
+    "/Users/nathanle/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/microsoft.aspnetcore.cryptography.internal/3.1.30/microsoft.aspnetcore.cryptography.internal.3.1.30.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/3.1.30/microsoft.aspnetcore.cryptography.keyderivation.3.1.30.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/3.1.30/microsoft.aspnetcore.identity.entityframeworkcore.3.1.30.nupkg.sha512",
@@ -79,7 +80,7 @@
     "/Users/nathanle/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/system.reflection.emit/4.3.0/system.reflection.emit.4.3.0.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/system.reflection.emit.ilgeneration/4.3.0/system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
-    "/Users/nathanle/.nuget/packages/system.reflection.emit.lightweight/4.3.0/system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "/Users/nathanle/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/system.reflection.extensions/4.3.0/system.reflection.extensions.4.3.0.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
     "/Users/nathanle/.nuget/packages/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg.sha512",
