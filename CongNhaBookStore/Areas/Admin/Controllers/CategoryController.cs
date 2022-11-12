@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 
 using CongNhaBookStore.Models.ViewModels;
 using CongNhaBooks.DataAccess.Repository.IRepository;
+using CongNhaBooks.Models;
 
 namespace CongNhaBookStore.Area.Admin.Controllers
 {
@@ -25,6 +26,21 @@ namespace CongNhaBookStore.Area.Admin.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult Upsert(int? id)
+        {
+            Category category = new Category();
+            if (id == null)
+            {
+                return View(category);
+            }
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if(category == null)
+            {
+                return NotFound();
+            }
+            return View(); // Add category view
         }
 
         #region API CALLS
