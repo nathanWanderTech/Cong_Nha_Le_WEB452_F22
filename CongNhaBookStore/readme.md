@@ -55,3 +55,5 @@
 -2022-11-12 12:52: Add Category Controller and Index view for Category
 
 -2022-11-12 12:57: Moved link to Category to dropdown
+
+-2022-11-12 13:06: Add category.js
