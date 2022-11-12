@@ -61,3 +61,5 @@
 -2022-11-12 13:19: Add Upsert method in Category Cotroller
 
 -2022-11-12 13:28: Add partial view for CreateAndBacktoListButton
+
+-2022-11-12 13:30: Add partial view for EditAndBacktoListButton
