@@ -50,7 +50,7 @@ namespace CongNhaBookStore.Area.Admin.Controllers
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
-        #endregion
+        
 
         // use Http POST to define the post-action method
         [HttpPost]
@@ -73,5 +73,19 @@ namespace CongNhaBookStore.Area.Admin.Controllers
             }
             return View(category);
         }
+
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if(objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.save();
+            return Json(new { success = true, message = "Delete successful" });
+        }
+        #endregion
     }
 }
