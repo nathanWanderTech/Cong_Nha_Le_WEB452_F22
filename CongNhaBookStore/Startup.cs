@@ -8,11 +8,13 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
-//using CongNhaBookStore.Data;  use new namespace
-using CongNhaBookStore.DataAccess.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+//using CongNhaBookStore.Data;  use new namespace
+using CongNhaBookStore.DataAccess.Data;
+using CongNhaBooks.DataAccess.Repository;
+using CongNhaBooks.DataAccess.Repository.IRepository;
 
 namespace CongNhaBookStore
 {
@@ -34,6 +36,7 @@ namespace CongNhaBookStore
             //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true) Comment out
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>(); // Added Unit of Work
             services.AddControllersWithViews();
            services.AddRazorPages();
         }

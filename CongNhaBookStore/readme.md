@@ -47,3 +47,7 @@
 -2022-11-12 10:35: Create ISP_Call file and install Dapper package
 
 -2022-11-12 10:35: Modified ISP_Call.cs
+
+-2022-11-12 12:27: Modified SP_Call.cs, create IUnitOfWork and UnitOfWork
+
+-2022-11-12 12:33: Add UnitOfWork in startup.cs config
