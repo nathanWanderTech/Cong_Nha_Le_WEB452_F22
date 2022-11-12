@@ -51,5 +51,27 @@ namespace CongNhaBookStore.Area.Admin.Controllers
             return Json(new { data = allObj });
         }
         #endregion
+
+        // use Http POST to define the post-action method
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Category category)
+        {
+            if(ModelState.IsValid) // checks all validations in the model (e.g Name required) to increase security
+            {
+                if(category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(category);
+                    _unitOfWork.save();
+                }
+                else
+                {
+                    _unitOfWork.Category.Update(category);
+                }
+                _unitOfWork.save();
+                return RedirectToAction(nameof(Index)); // to see all the category
+            }
+            return View(category);
+        }
     }
 }

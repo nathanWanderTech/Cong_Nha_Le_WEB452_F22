@@ -26,7 +26,7 @@ namespace CongNhaBooks.DataAccess.Repository
             if(objFormDb != null) // save changes if not null
             {
                 objFormDb.Name = category.Name;
-                _db.SaveChanges();
+                //_db.SaveChanges(); Removed this one
             }
         }
     }
