@@ -53,3 +53,5 @@
 -2022-11-12 12:33: Add UnitOfWork in startup.cs config
 
 -2022-11-12 12:52: Add Category Controller and Index view for Category
+
+-2022-11-12 12:57: Moved link to Category to dropdown
