@@ -59,3 +59,5 @@
 -2022-11-12 13:06: Add category.js
 
 -2022-11-12 13:19: Add Upsert method in Category Cotroller
+
+-2022-11-12 13:28: Add partial view for CreateAndBacktoListButton
