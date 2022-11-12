@@ -71,3 +71,5 @@
 -2022-11-12 14:05: Create Upsert POST action in Category controller
 
 -2022-11-12 14:12: Create Delete Category action in Category controller
+
+-2022-11-12 14:15: Create Delete function in category.js
