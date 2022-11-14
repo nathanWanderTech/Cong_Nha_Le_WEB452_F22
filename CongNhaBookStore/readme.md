@@ -73,3 +73,5 @@
 -2022-11-12 14:12: Create Delete Category action in Category controller
 
 -2022-11-12 14:15: Create Delete function in category.js
+
+-2022-11-14 11:23: Run add-migartion AddCategoryToDb to generate file 20221114162239_AddCategoryToDb.cs
