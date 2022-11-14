@@ -79,3 +79,5 @@
 -2022-11-14 12:43: Removed all old migration file by command remove-migration and add new migration file to fix errors. 20221114173852_NewMigrationAfterRemoveOld.cs
 
 -2022-11-14 12:43: Fix typo error scripts in category view Index
+
+-2022-11-14 13:13: Fix _CreateAndBackToListButton.cshtml not found
