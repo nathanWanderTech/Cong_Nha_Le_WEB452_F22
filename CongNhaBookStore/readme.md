@@ -75,3 +75,5 @@
 -2022-11-12 14:15: Create Delete function in category.js
 
 -2022-11-14 11:23: Run add-migartion AddCategoryToDb to generate file 20221114162239_AddCategoryToDb.cs
+
+-2022-11-14 12:43: Removed all old migration file by command remove-migration and add new migration file to fix errors. 20221114173852_NewMigrationAfterRemoveOld.cs

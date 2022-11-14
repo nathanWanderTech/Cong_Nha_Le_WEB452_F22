@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20221111194841_AddDefaultIdentityMigration.cs" />
+    <Compile Remove="Migrations\20221111194841_AddDefaultIdentityMigration.Designer.cs" />
+    <Compile Remove="Migrations\20221114162239_AddCategoryToDb.cs" />
+    <Compile Remove="Migrations\20221114162239_AddCategoryToDb.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Data\" />
     <None Remove="Microsoft.EntityFrameworkCore" />
     <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
