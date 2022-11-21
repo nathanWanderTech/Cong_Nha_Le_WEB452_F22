@@ -81,3 +81,5 @@
 -2022-11-14 12:43: Fix typo error scripts in category view Index
 
 -2022-11-14 13:13: Fix _CreateAndBackToListButton.cshtml not found
+
+-2022-11-21 13:35: START PART 3
