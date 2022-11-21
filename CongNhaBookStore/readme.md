@@ -95,3 +95,5 @@
 -2022-11-21 15:05: Add product model file
 
 -2022-11-21 15:07: Add MIGRATION PRODUCT 20221121200735_AddProductToDb
+
+-2022-11-21 15:10: Update required title, ISBN and Author in product Model
