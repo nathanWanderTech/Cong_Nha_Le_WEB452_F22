@@ -91,3 +91,7 @@
 -2022-11-21 14:47: add cover type controller
 
 -2022-11-21 14:58: Add cover type view and coverType.js
+
+-2022-11-21 15:05: Add product model file
+
+-2022-11-21 15:07: Add MIGRATION PRODUCT 20221121200735_AddProductToDb
