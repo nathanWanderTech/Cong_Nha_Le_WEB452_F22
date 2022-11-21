@@ -83,3 +83,5 @@
 -2022-11-14 13:13: Fix _CreateAndBackToListButton.cshtml not found
 
 -2022-11-21 13:35: START PART 3
+
+-2022-11-21 14:36: Add Cover Type class, ICoverType, ICoverTypeRepository and added into Unit of Work
