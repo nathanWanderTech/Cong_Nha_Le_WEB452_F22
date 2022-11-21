@@ -89,3 +89,5 @@
 -2022-11-21 14:40: add migration 20221121193941_AfterAddCoverType
 
 -2022-11-21 14:47: add cover type controller
+
+-2022-11-21 14:58: Add cover type view and coverType.js
