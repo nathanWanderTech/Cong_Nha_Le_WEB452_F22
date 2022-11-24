@@ -98,6 +98,8 @@
 
 -2022-11-21 15:10: Update required title, ISBN and Author in product Model
 
--2022-11-21 15:18:  Add MIGRATION 20221121201829_AddValidationToProduct
+-2022-11-21 15:18: Add MIGRATION 20221121201829_AddValidationToProduct
 
 -2022-11-21 15:34: Add product to Unit of work
+
+-2022-11-23 22:00: Create product controller

@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Utility\\CongNhaBooks.Utility.csproj": {}
+    "/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.Utility/CongNhaBooks.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Utility\\CongNhaBooks.Utility.csproj": {
+    "/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.Utility/CongNhaBooks.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Utility\\CongNhaBooks.Utility.csproj",
+        "projectUniqueName": "/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.Utility/CongNhaBooks.Utility.csproj",
         "projectName": "CongNhaBooks.Utility",
-        "projectPath": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Utility\\CongNhaBooks.Utility.csproj",
-        "packagesPath": "C:\\Users\\W0761950\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Utility\\obj\\",
+        "projectPath": "/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.Utility/CongNhaBooks.Utility.csproj",
+        "packagesPath": "/Users/nathanle/.nuget/packages/",
+        "outputPath": "/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.Utility/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\W0761950\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/nathanle/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,7 +43,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

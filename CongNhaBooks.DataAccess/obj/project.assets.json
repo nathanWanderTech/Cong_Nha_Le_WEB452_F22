@@ -6447,41 +6447,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\W0761950\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/nathanle/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.DataAccess\\CongNhaBooks.DataAccess.csproj",
+      "projectUniqueName": "/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/CongNhaBooks.DataAccess.csproj",
       "projectName": "CongNhaBooks.DataAccess",
-      "projectPath": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.DataAccess\\CongNhaBooks.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\W0761950\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.DataAccess\\obj\\",
+      "projectPath": "/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/CongNhaBooks.DataAccess.csproj",
+      "packagesPath": "/Users/nathanle/.nuget/packages/",
+      "outputPath": "/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.DataAccess/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\W0761950\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/nathanle/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\CongNhaBooks.Models.csproj": {
-              "projectPath": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\CongNhaBooks.Models.csproj"
+            "/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.Models/CongNhaBooks.Models.csproj": {
+              "projectPath": "/Users/nathanle/Projects/Web452Assignment/CongNhaBooks.Models/CongNhaBooks.Models.csproj"
             }
           }
         }
@@ -6527,7 +6518,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -6536,7 +6528,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }
