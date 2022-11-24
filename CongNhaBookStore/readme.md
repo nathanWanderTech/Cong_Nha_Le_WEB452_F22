@@ -103,3 +103,5 @@
 -2022-11-21 15:34: Add product to Unit of work
 
 -2022-11-23 22:00: Create product controller
+
+-2022-11-23 22:18: Create ProductVM
