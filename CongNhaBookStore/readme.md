@@ -109,3 +109,5 @@
 -2022-11-23 22:30: Create Upsert method in Product Controller but temporary comment out
 
 -2022-11-23 22:36: Add region call API in Product Controller
+
+-2022-11-23 22:52: Add View for product and product.js
