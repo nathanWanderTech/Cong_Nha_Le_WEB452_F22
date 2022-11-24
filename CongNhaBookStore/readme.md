@@ -107,3 +107,5 @@
 -2022-11-23 22:18: Create ProductVM
 
 -2022-11-23 22:30: Create Upsert method in Product Controller but temporary comment out
+
+-2022-11-23 22:36: Add region call API in Product Controller
