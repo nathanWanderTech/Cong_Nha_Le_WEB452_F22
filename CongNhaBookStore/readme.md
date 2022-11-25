@@ -111,3 +111,5 @@
 -2022-11-23 22:36: Add region call API in Product Controller
 
 -2022-11-23 22:52: Add View for product and product.js
+
+-2022-11-25 10:32: Fix table view not load category data
