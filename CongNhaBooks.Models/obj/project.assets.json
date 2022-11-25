@@ -7691,11 +7691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\CongNhaBooks.Models.csproj",
+      "projectUniqueName": "C:\\Users\\W0761950\\Source\\Repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\CongNhaBooks.Models.csproj",
       "projectName": "CongNhaBooks.Models",
-      "projectPath": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\CongNhaBooks.Models.csproj",
+      "projectPath": "C:\\Users\\W0761950\\Source\\Repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\CongNhaBooks.Models.csproj",
       "packagesPath": "C:\\Users\\W0761950\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\obj\\",
+      "outputPath": "C:\\Users\\W0761950\\Source\\Repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",

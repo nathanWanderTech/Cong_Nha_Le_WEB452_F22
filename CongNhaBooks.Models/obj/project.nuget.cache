@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6uPnUpn8gg6mPXpV66v7x2qMI++k+CHoOqAw2/K2F2K2T/k9nYSpLzLqSxzBHt6lUSSX6bCO6AAEJJEpp1LxnQ==",
+  "dgSpecHash": "Y9UNJq8aYjo7iubL3p6zswyE8stPWBMaxwHaPsp/t/n7yBRBq2nYJz949oR75S2GR7qcKwxF90Co99qQKxWhHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\CongNhaBooks.Models.csproj",
+  "projectFilePath": "C:\\Users\\W0761950\\Source\\Repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\CongNhaBooks.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\W0761950\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\W0761950\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

@@ -9659,11 +9659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.DataAccess\\CongNhaBooks.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\W0761950\\Source\\Repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.DataAccess\\CongNhaBooks.DataAccess.csproj",
       "projectName": "CongNhaBooks.DataAccess",
-      "projectPath": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.DataAccess\\CongNhaBooks.DataAccess.csproj",
+      "projectPath": "C:\\Users\\W0761950\\Source\\Repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.DataAccess\\CongNhaBooks.DataAccess.csproj",
       "packagesPath": "C:\\Users\\W0761950\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\W0761950\\Source\\Repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -9685,8 +9685,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\CongNhaBooks.Models.csproj": {
-              "projectPath": "C:\\Users\\W0761950\\source\\repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\CongNhaBooks.Models.csproj"
+            "C:\\Users\\W0761950\\Source\\Repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\CongNhaBooks.Models.csproj": {
+              "projectPath": "C:\\Users\\W0761950\\Source\\Repos\\Cong_Nha_Le_WEB452_F22\\CongNhaBooks.Models\\CongNhaBooks.Models.csproj"
             }
           }
         }
