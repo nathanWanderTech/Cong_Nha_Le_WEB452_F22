@@ -115,3 +115,5 @@
 -2022-11-25 10:32: Fix table view not load category data
 
 -2022-11-29 23:51: Add Product Upsert View
+
+-2022-11-29 00:01: Add Product Upsert method in Product controller
