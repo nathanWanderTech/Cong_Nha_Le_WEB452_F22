@@ -84,11 +84,12 @@ namespace CongNhaBookStore.Areas.Admin.Controllers
 
         // API calls here
         #region API CALLS
+        
+
         [HttpGet]
         public IActionResult GetAll()
         {
-            // return NotFound();
-            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");
+            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
             return Json(new { data = allObj });
         }
 
